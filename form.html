@@ -1,0 +1,59 @@
+<html>
+    <head> <title> form </title> </head> 
+    
+    <body  align= = "center">
+
+        <h1 align = "center"> Student form in html </h1>
+        
+        <form method="post" action="webpage.html">
+        
+          <label> NAME  </label>  
+           <input type="text" name="USERNAME"> <br> <br>
+
+        <label> EMAIL </label> 
+          <input type="text" name="email"> <br> <br>
+        
+          <label> PASSWORD  </label>  
+          <input type="number" placeholder="password" name="password"> <br> <br>
+
+          <p> DESCRIPTION  </p>
+          <textarea rows ="3" cols="25"></textarea> 
+
+          <p> GENDER  </p>
+          <input type="radio" id="name" name="gender" value="male"> male <!---this is the way to create radio buttons--->
+          <input type="radio" name="gender"> female
+          <input type="radio" name="gender"> other   <br> <br>
+        
+          <label> COURSE </label>
+          <select>         <!----this is dropdown list-->
+                 <option> java </option>
+                 <option> python </option>
+                <option> dotnet </option>
+                <option> sql </option>
+        </select> <br> <br>
+
+        <label> LOCATION </label>
+        <input type="checkbox"> hyderabad
+        <input type="checkbox"> chennai
+        <input type="checkbox"> bangaloore
+        <input type="checkbox"> delhi <br> <br>
+
+        <label> UPLOAD IMAGE </label>
+        <input type="file" name="file upload" accept="C:\Users\chint\Downloads/bird.jpeg"/> <br> <br>
+
+        <fieldset>
+            <legend> ENTER YOUR EDUCATION DETAILS </legend>
+            <label> branch </label>
+            <input type="text" name="username">  <br><br> 
+
+            <label>  passed out year </label> 
+            <input type="number" name="number">  <br><br>
+
+            <label> courses you have done </label>
+            <input type="text" name="course"> <br> <br>
+
+          <a href="webpage.html"> <input type="button" name="submit" value="submit"> </a>
+        </fieldset>
+ `</form>
+</body>
+</html>
